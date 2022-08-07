@@ -41,8 +41,7 @@ echo "<script>alert('Los campos marcados con * son obligatorios');location.href 
     "Mensaje: $Mensaje \n<br />";
     $mail->AddAttachment($archivo['tmp_name'], $archivo['name']);   
     
-    
-
+   
 // Datos del servidor SMTP
 
     $mail->IsSMTP();
